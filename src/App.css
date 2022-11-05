@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6c6cFD;
+    color: black;
+    height: 20vh;
+}
+
+header h1 {
+    font-size: 50px; 
+    padding: 20px 0 0 20px;
+}
+
+.home-body {
+    background-color: #8e90ff;
+    height: 80vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-body button {
+    background-color: black;
+    margin: 30px 60px auto 60px;
+    border: none;
+    height: 150px;
+    width: 250px; 
+    border-radius: 50%;
+}
+
+.homepage-links {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.home-content h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.counter-nav {
+    text-align: right;
+    
+}
+
+.counter-links, .error-link {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.counter-body {
+    background-color: #8e90ff;
+    height: 80vh;
+    text-align: center;
+}
+
+.counter-body h1, .error-page h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.counter-btns {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+
+.counter-btns p {
+    padding: 40px;
+    background-color: white;
+    color: #6c6cFD;
+    font-size: 30px;
+    
+}
+
+.counter-btns button {
+    padding: 40px;
+    margin-bottom: 0.5px;
+    background-color: #6c6cFD;
+    /* border-radius: 10%; */
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.left-button {
+    border-bottom-left-radius: 40%;
+    border-top-left-radius: 40%;
+}
+
+.right-button {
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+}
+
+.counter-form input, button {
+    background-color: #6c6cFD;
+    /* padding: 20px; */
+    font-size: 30px;
+    border: none;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: green;
+    width: 200px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.reset-btn {
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.error-page {
+    background-color: #6c6cFD;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+

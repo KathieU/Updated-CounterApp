@@ -1,7 +1,7 @@
 import React from "react";
 import CounterView from "../shared-components/CounterView";
-import useCounter from "../shared-components/useCounter";
-import useInput from "../shared-components/useInput";
+import useCounter from "../hooks/useCounter";
+import useInput from "../hooks/useInput";
 
 
 const CustomHook = () => {
@@ -10,7 +10,9 @@ const CustomHook = () => {
 
   return (
     <CounterView
-      name="Custom Hook"
+      location="/reducer"
+      page="useReducer Counter"
+      name="Custom Counter"
       counter={counter}
       increaseCounter={increment}
       decreaseCounter={decrement}
