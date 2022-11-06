@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import ErrorTest from './ErrorTest';
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>Counter App</title>
+        <meta name="description" content="Use our counter application made with a custom react hook and a useReducer hook" />
+        <link rel="canonical" href="/" />
+      </Helmet>
       <header>
         <h1>CounterApp</h1>
         

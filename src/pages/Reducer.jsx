@@ -1,6 +1,7 @@
 import React, { useReducer } from "react";
 import CounterView from "../shared-components/CounterView";
 import useInput from "../hooks/useInput";
+import { Helmet } from "react-helmet-async";
 
 const initialState = 0;
 
@@ -45,19 +46,26 @@ const Reducer = () => {
   };
 
   return (
-    <CounterView
-      location="/customhook"
-      page="Custom Counter"
-      name="useReducer Counter"
-      counter={counter}
-      resetCounter={reset}
-      decreaseCounter={decrement}
-      increaseCounter={increment}
-      setNewValueToCounter={setValue}
-      formInputValue={inputValue}
-      onChangeInputValue={onChangeOfInput}
-      resetInputValue={resetInputValue}
-    />
+    <div>
+      <Helmet>
+        <title>useReducer Counter</title>
+        <meta name="description" content="This is a counter created with react useReducer hook" />
+        <link rel="canonical" href="/reducer" />
+      </Helmet>
+      <CounterView
+        location="/customhook"
+        page="Custom Counter"
+        name="useReducer Counter"
+        counter={counter}
+        resetCounter={reset}
+        decreaseCounter={decrement}
+        increaseCounter={increment}
+        setNewValueToCounter={setValue}
+        formInputValue={inputValue}
+        onChangeInputValue={onChangeOfInput}
+        resetInputValue={resetInputValue}
+      />
+    </div>
   );
 };
 
