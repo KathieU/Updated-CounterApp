@@ -30,7 +30,7 @@ const CounterView = ({
         </nav>
       </header>
       <div className='counter-body'>
-        <h1>{name}</h1>
+        <h2>{name}</h2>
 
         <div className='counter-btns'>
             <button onClick={() => decreaseCounter()} className='left-button'>-</button>

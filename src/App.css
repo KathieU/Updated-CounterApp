@@ -50,7 +50,7 @@ header h1 {
 
 .counter-links, .error-link {
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 20px;
     font-size: 25px;
     border: 2px solid black;
@@ -64,9 +64,9 @@ header h1 {
     text-align: center;
 }
 
-.counter-body h1, .error-page h1 {
+.counter-body h2, .error-page h1 {
     margin-bottom: 50px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .counter-btns {

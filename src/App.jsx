@@ -6,6 +6,7 @@ import Reducer from "./pages/Reducer";
 import Home from "./pages/Home";
 import Page404 from "./pages/Page404";
 import ErrorBoundary from "./pages/ErrorBoundary";
+import ErrorTest from "./pages/ErrorTest";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/customhook" element={<CustomHook />} />
         <Route path="/reducer" element={<Reducer />} />
+        <Route path="/errortest" element={<ErrorTest />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
     </ErrorBoundary>
