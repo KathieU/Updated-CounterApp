@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -19,6 +20,7 @@ class ErrorBoundary extends React.Component {
       return (
         <div className="error-page">
           <h1>Something went wrong.</h1>
+          <Link to="/" className='counter-links'>REFRESH PAGE</Link>
         </div>
       );
     }

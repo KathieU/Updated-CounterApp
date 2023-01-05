@@ -13,7 +13,7 @@ const CustomHook = () => {
     <div>
       <Helmet>
         <title>Custom Counter</title>
-        <meta name="description" content="This is a counter created with a react custom hook" />
+        <meta name="description" content="This is a counter created using a custom hook made with react.js" />
         <link rel="canonical" href="/customhook" />
       </Helmet>
 
